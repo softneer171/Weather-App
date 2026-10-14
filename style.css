@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+.weather-app{
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow:0 8px 25px rgba(0, 0, 0, 0.15); ;
+}
+h1{
+    margin-bottom: 20px;
+    color: #333;
+}
+#search-form{
+    display:flex;
+    gap:8px;
+    margin-bottom: 20px;
+}
+#city-input{
+    width: 100%;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+button{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    background: #5b67d8;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background:#414bb5;
+}
+#weather{
+    margin-top: 20px;
+    color:#333;
+
+}
+#weather-icon{
+    font-size: 55px;
+    margin:auto10px 0;
+}
+#temperature{
+    font-size: 38px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+#condition, #humidity, #wind{
+    margin: 8px 0;
+    color: #666;
+
+}
+#message{
+    margin-top: 15px;
+    color: #666;
+}
